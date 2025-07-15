@@ -147,3 +147,4 @@ out/
 
 # Laziness
 examples/Untitled*.*
+.DS_Store
