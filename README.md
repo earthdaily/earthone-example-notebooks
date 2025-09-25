@@ -77,4 +77,4 @@ End-to-end example analytic pipelines oriented towards specific applications in 
     
 ## Support
 
-If you have any questions please reach out to [dl.support@earthdaily.com](dl.support@earthdaily.com).
+If you have any questions please reach out to [support@earthdaily.com](support@earthdaily.com).
