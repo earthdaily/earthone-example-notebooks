@@ -1,0 +1,11 @@
+earthdaily-earthone
+geopandas
+ipyleaflet
+jupyter
+keras
+matplotlib
+rioxarray
+scikit-learn
+shapely
+spyndex
+tensorflow
