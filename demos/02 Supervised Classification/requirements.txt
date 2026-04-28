@@ -1,6 +1,5 @@
-descarteslabs
-descarteslabs-dynamic-compute
-descarteslabs-vector
+earthdaily-earthone
+earthdaily-earthone-dynamic-compute
 geopandas
 ipyleaflet
 matplotlib
