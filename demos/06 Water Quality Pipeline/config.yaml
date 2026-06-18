@@ -1,0 +1,26 @@
+## Global Params
+baseline_product_name: "Demo Turbidity Baseline"
+surrogate_product_name: "Water Quality Surrogate Sentinel-2 Product"
+# in_geojson_path: "data/JacuiDelta.geojson"
+in_geojson_path: "data/GuaibaLake.geojson"
+s2_pid: "esa:sentinel-2:l2a:c1:v1"
+bands: ["nir", "red", "green"]
+resolution: 10.
+
+
+## Baseline Params
+BASELINE_START: "2023-02-01"
+BASELINE_END: "2023-05-01"
+### Strict filter for short baseline window — relax to 0.10+ for longer windows
+MAX_CLOUD_FRACTION: 0.01
+### Max number of scenes to rasterize for baseline
+MAX_BASELINE_SCENES: 25
+### low due to short baseline window — increase to 3+ for multi-month baselines
+MIN_VALID_OBSERVATIONS: 1
+### Baseline threshold percentile for NDTI 
+BASELINE_NDTI_PERCENTILE: 5
+
+## Deploy Params
+s2_sample_dates: ["2024-01-14","2024-03-14", "2024-04-03","2024-04-18","2024-05-18","2024-05-21","2024-06-07","2024-08-01","2024-08-21",]
+ANOMALY_THRESHOLD: 0.15
+SEVERE_THRESHOLD: 0.30

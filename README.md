@@ -69,9 +69,12 @@ End-to-end example analytic pipelines oriented towards specific applications in 
    
 5. Vessel Detection Pipeline - Deploy a sample vessel detection pipeline which responds to new image upload events:
     - [01 Kaohsiung Port New Image Events.ipynb](demos/05%20Vessel%20Detection%20Pipeline/01%20Kaohsiung%20Port%20New%20Image%20Events.ipynb)
-<!--     - [02 Alang Shipbreaking Yard Daily Monitoring.ipynb](demos/05%20Vessel%20Detection%20Pipeline/02%20Alang%20Shipbreaking%20Yard%20Daily%20Monitoring.ipynb) -->
 
-6. Dynamic Compute Demos - Various case studies implementing scientific methodologies on open data through Dynamic Compute:
+6. Water Quality Monitoring Pipeline - Establish a turbidity baseline and deploy an automated pipeline to detect water quality anomalies, using the May 2024 Rio Grande do Sul floods as a case study:
+    - [01 Generate Turbidity Baseline.ipynb](demos/06%20Water%20Quality%20Pipeline/01%20Generate%20Turbidity%20Baseline.ipynb)
+    - [02 Deploy Monitoring Pipeline.ipynb](demos/06%20Water%20Quality%20Pipeline/02%20Deploy%20Monitoring%20Pipeline.ipynb)
+
+7. Dynamic Compute Demos - Various case studies implementing scientific methodologies on open data through Dynamic Compute:
     - [01 Se2WaQ Neuchatel Lake](demos/Dynamic%20Compute%20Demos/01%20Se2WaQ%20Neuchatel%20Lake.ipynb)
     - [02 Sentinel-1 Vessel Detection Shanghai](demos/Dynamic%20Compute%20Demos/02%20Sentinel-1%20Vessel%20Detection%20Shanghai.ipynb)
     
