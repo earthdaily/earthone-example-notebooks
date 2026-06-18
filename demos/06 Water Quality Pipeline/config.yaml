@@ -11,11 +11,11 @@ resolution: 10.
 ## Baseline Params
 BASELINE_START: "2023-02-01"
 BASELINE_END: "2023-05-01"
-### Max cloud_fraction filter
+### Strict filter for short baseline window — relax to 0.10+ for longer windows
 MAX_CLOUD_FRACTION: 0.01
 ### Max number of scenes to rasterize for baseline
 MAX_BASELINE_SCENES: 25
-### Min number of observations per pixel index
+### low due to short baseline window — increase to 3+ for multi-month baselines
 MIN_VALID_OBSERVATIONS: 1
 ### Baseline threshold percentile for NDTI 
 BASELINE_NDTI_PERCENTILE: 5

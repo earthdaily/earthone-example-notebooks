@@ -74,7 +74,7 @@ End-to-end example analytic pipelines oriented towards specific applications in 
     - [01 Generate Turbidity Baseline.ipynb](demos/06%20Water%20Quality%20Pipeline/01%20Generate%20Turbidity%20Baseline.ipynb)
     - [02 Deploy Monitoring Pipeline.ipynb](demos/06%20Water%20Quality%20Pipeline/02%20Deploy%20Monitoring%20Pipeline.ipynb)
 
-8. Dynamic Compute Demos - Various case studies implementing scientific methodologies on open data through Dynamic Compute:
+7. Dynamic Compute Demos - Various case studies implementing scientific methodologies on open data through Dynamic Compute:
     - [01 Se2WaQ Neuchatel Lake](demos/Dynamic%20Compute%20Demos/01%20Se2WaQ%20Neuchatel%20Lake.ipynb)
     - [02 Sentinel-1 Vessel Detection Shanghai](demos/Dynamic%20Compute%20Demos/02%20Sentinel-1%20Vessel%20Detection%20Shanghai.ipynb)
     
